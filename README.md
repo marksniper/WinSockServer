@@ -15,7 +15,7 @@ Open new terminal session and launch the follow command
 ```
 ncat 127.0.0.1 8010
 ```
-Write your messages from server
+Write your messages from server and press ENTER to send to server.
 
 2. USE CLIENT PROGRAM
 Download, compile, build and run the _WINSOCK CLIENT_ program, written in C, which is available in *WINCLIENTSOCKET* repository, [link]()
