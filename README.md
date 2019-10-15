@@ -12,7 +12,7 @@ file doesn't exists, server creates its.
 
 [Code Block with GCC G++ compiler and GDB debugger Direct Download](https://sourceforge.net/projects/codeblocks/files/Binaries/17.12/Windows/codeblocks-17.12mingw-setup.exe/download)
 
-[Download MinGW-w64](https://sourceforge.net/projects/mingw-w64/)link
+[Download MinGW-w64](https://sourceforge.net/projects/mingw-w64/)
 
 ## INSTALLATION
 1. Install CLion
