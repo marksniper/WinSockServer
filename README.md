@@ -7,8 +7,12 @@ file doesn't exists, server creates its.
 
 ## LINKS
 [Socket example and other information](https://stackoverflow.com/questions/14404202/receiving-strange-characters-symbols-in-winsock)
-[Code Block with GCC/G++ compiler and GDB debugger (Official)] (http://www.codeblocks.org/downloads/26)
-[Code Block with GCC/G++ compiler and GDB debugger (Direct Download)] (https://sourceforge.net/projects/codeblocks/files/Binaries/17.12/Windows/codeblocks-17.12mingw-setup.exe/download)
+
+[Code Block with GCC/G++ compiler and GDB debugger - Official] (http://www.codeblocks.org/downloads/26)
+
+[Code Block with GCC/G++ compiler and GDB debugger - Direct Download] (https://sourceforge.net/projects/codeblocks/files/Binaries/17.12/Windows/codeblocks-17.12mingw-setup.exe/download)
+
+[Download MinGW-w64](https://sourceforge.net/projects/mingw-w64/)
 
 ## INSTALLATION
 1. Install CLion
@@ -17,14 +21,19 @@ https://www.jetbrains.com/student/ or https://www.jetbrains.com/shop/eform/stude
 Insert your university email
 Download the IDE
 Download the code as ZIP
+Extract zip in a folder
+Import project as "New CMake Project from Source". Chose and select the project, navigating inside your file system. Fianlly import as "Open Existing Project".
+Download and install MinGW-w64
+Set Toolchains. File -> Settings -> Build, Execution, Deployment -> Toolchais. Click on '+'. Automatically, CLion sets up toolchains
 
 2. Install CodeBlocks
-Use Code Block with GCC/G++ compiler and GDB debugger (Direct Download) link.
+Use Code Block with GCC/G++ compiler and GDB debugger (Direct Download) link
 Install application 
 Set up linker: Settings -> Compiler -> Linker settings -> Add
 Add C:\windows\system32\wsock32.dll libraries
-You can click on "Build and Run" button to launch server.
-You can also use 
+You can click on "Build and Run" button to launch server
+
+You can also use the application, stored in file system
 ## TEST
 1. NMAP TOOL
 Download nmap for Windows platform, clicking on _Latest stable release self-installer_, from the follow [link](https://nmap.org/download)
@@ -35,7 +44,7 @@ ncat 127.0.0.1 8010
 Write your messages from server and press ENTER to send to server.
 
 2. USE CLIENT PROGRAM
-Download, compile, build and run the _WINSOCK CLIENT_ program, written in C, which is available in *WINCLIENTSOCKET* repository, [link]()
+Download, compile, build and run the _WINSOCK CLIENT_ program, written in C, which is available in *WINCLIENTSOCKET* repository, [link](https://github.com/marksniper/WinSockClient)
 ## Authors
 * **Benedetto Marco Serinelli** - *Initial work* 
 ## Acknowledgments
