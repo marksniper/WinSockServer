@@ -8,11 +8,11 @@ file doesn't exists, server creates its.
 ## LINKS
 [Socket example and other information](https://stackoverflow.com/questions/14404202/receiving-strange-characters-symbols-in-winsock)
 
-Code Block with GCC G++ compiler and GDB debugger Official[link] (http://www.codeblocks.org/downloads/26)
+[Code Block with GCC G++ compiler and GDB debugger Official](http://www.codeblocks.org/downloads/26)
 
-Code Block with GCC G++ compiler and GDB debugger Direct Download[link] (https://sourceforge.net/projects/codeblocks/files/Binaries/17.12/Windows/codeblocks-17.12mingw-setup.exe/download)
+[Code Block with GCC G++ compiler and GDB debugger Direct Download](https://sourceforge.net/projects/codeblocks/files/Binaries/17.12/Windows/codeblocks-17.12mingw-setup.exe/download)
 
-[Download MinGW-w64](https://sourceforge.net/projects/mingw-w64/)
+[Download MinGW-w64](https://sourceforge.net/projects/mingw-w64/)link
 
 ## INSTALLATION
 1. Install CLion
